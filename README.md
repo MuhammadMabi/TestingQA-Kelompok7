@@ -79,7 +79,7 @@ UMKM-Software-Testing/
 |---|---|---|
 | 1. | Muhammad Mabi Palaka | 231011401691 |
 | 2. | Muhammad Raffi | 231011401441 |
-| 3. | Anggota 2 | 2310XXXXXXXX |
+| 3. | Muhammad Gifary Nezar | 231011401241 |
 | 4. | Anggota 3 | 2310XXXXXXXX |
 
 ---
