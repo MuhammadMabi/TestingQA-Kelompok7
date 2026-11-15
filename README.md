@@ -63,14 +63,29 @@ Referensi utama:
 ## 📂 Struktur Repository
 
 ```text
-UMKM-Software-Testing/
-├── README.md
-├── documentation/
-├── IEEE-References/
-├── evidence/
-│   ├── screenshots/
-│   └── interview/
-└── .gitignore
+TestingQA-Kelompok7/
+│
+├── 01-object-under-test/
+│
+├── 02-standards-and-references/
+│
+├── 03-test-plan/
+│
+├── 04-test-cases/
+│
+├── 05-test-execution/
+│   └── screenshots/
+│
+├── 06-bug-reports/
+│   └── screenshots/
+│
+├── 07-qa-consultation/
+│
+├── 08-test-summary/
+│
+├── .gitignore
+│
+└── README.md
 ```
 
 ## 👥 Anggota Kelompok
