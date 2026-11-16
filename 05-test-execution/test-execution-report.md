@@ -11,7 +11,7 @@
 | Testing Method | Black Box Testing |
 | Testing Approach | Functional Testing |
 | Role | Execution & Defect Coordinator |
-| Tester | Anggota 3 |
+| Tester | Muhammad Gifary Nezar |
 | Testing Status | Preparation |
 
 ## 2. Tujuan Pengujian
