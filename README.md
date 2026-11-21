@@ -4,13 +4,13 @@
 ![Semester](https://img.shields.io/badge/Semester-7-green)
 ![Tahun](https://img.shields.io/badge/Tahun-2026-orange)
 
-## 📌 Tentang Proyek
+## Tentang Proyek
 
 Repository ini berisi dokumentasi dan kegiatan pengujian perangkat lunak pada [Jetprint.id](https://jetprint.id/), yaitu platform digital printing online yang menyediakan berbagai layanan dan produk percetakan.
 
 Proyek ini dibuat untuk memenuhi tugas mata kuliah **Testing dan QA Perangkat Lunak** pada semester 7, Program Studi Teknik Informatika, Universitas Pamulang.
 
-## 🎯 Tujuan Proyek
+## Tujuan Proyek
 
 - Menguji fungsionalitas dan kegunaan website.
 - Mengidentifikasi potensi kesalahan (bug).
@@ -19,7 +19,7 @@ Proyek ini dibuat untuk memenuhi tugas mata kuliah **Testing dan QA Perangkat Lu
 - Menerapkan referensi standar IEEE tahun 2022–2026.
 - Melakukan wawancara dengan profesional di bidang Software Testing atau Quality Assurance.
 
-## 🌐 Objek Pengujian
+## Objek Pengujian
 
 | Informasi | Keterangan |
 |---|---|
@@ -29,7 +29,7 @@ Proyek ini dibuat untuk memenuhi tugas mata kuliah **Testing dan QA Perangkat Lu
 | Metode Utama | Black Box Testing |
 | Kategori Proyek | Akademik |
 
-## 🔍 Ruang Lingkup Pengujian
+## Ruang Lingkup Pengujian
 
 Pengujian akan berfokus pada beberapa fitur berikut:
 
@@ -44,7 +44,7 @@ Pengujian akan berfokus pada beberapa fitur berikut:
 
 *Ruang lingkup pengujian disesuaikan dengan ketersediaan fitur dan izin pengujian.*
 
-## 🧪 Metode Pengujian
+## Metode Pengujian
 
 - Black Box Testing
 - Functional Testing
@@ -53,14 +53,14 @@ Pengujian akan berfokus pada beberapa fitur berikut:
 - Negative Testing
 - Regression Testing
 
-## 📚 Referensi
+## Referensi
 
 Pengujian mengacu pada standar dan publikasi IEEE terkait software testing yang diterbitkan dalam rentang tahun 2022–2026.
 
 Referensi utama:
 - ISO/IEC/IEEE 29119-1:2022 – Software Testing General Concepts.
 
-## 📂 Struktur Repository
+## Struktur Repository
 
 ```text
 TestingQA-Kelompok7/
@@ -71,24 +71,32 @@ TestingQA-Kelompok7/
 │
 ├── 03-test-plan/
 │
-├── 04-test-cases/
+├── 04-test-design/
 │
 ├── 05-test-execution/
 │   └── screenshots/
 │
-├── 06-bug-reports/
+├── 06-bug-management/
 │   └── screenshots/
 │
-├── 07-qa-consultation/
+├── 07-testing-types/
 │
-├── 08-test-summary/
+├── 08-automation-testing/
+│   └── tests/
+│
+├── 09-qa-consultation/
+│
+├── 10-test-summary/
+│
+├── docs/
+│   └── screenshots/
 │
 ├── .gitignore
 │
 └── README.md
 ```
 
-## 👥 Anggota Kelompok
+## Anggota Kelompok
 
 | No. | Nama | NIM |
 |---|---|---|
