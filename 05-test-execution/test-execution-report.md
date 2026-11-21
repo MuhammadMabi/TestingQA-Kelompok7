@@ -1,115 +1,28 @@
 
-# Test Execution Report
+# Hasil Eksekusi Pengujian
 
-## 1. Informasi Pengujian
+## TC01 – Login dengan Email dan Password Benar
 
-| Informasi | Keterangan |
+| Komponen | Hasil |
 |---|---|
-| Project | Jetprint.id - Software Testing & QA |
-| Object Under Test | Jetprint.id |
-| Application Type | Web Application / E-Commerce Digital Printing |
-| Testing Method | Black Box Testing |
-| Testing Approach | Functional Testing |
-| Role | Execution & Defect Coordinator |
-| Tester | Muhammad Gifary Nezar |
-| Testing Status | Preparation |
+| Test Case ID | TC01 |
+| Fitur yang Diuji | Login |
+| Tujuan Pengujian | Memastikan pengguna dapat masuk menggunakan kredensial yang valid. |
+| Test Data | Akun pelanggan yang sudah terdaftar. |
+| Expected Result | Pengguna berhasil login dan diarahkan ke halaman setelah login. |
+| Actual Result | Sistem menerima email dan password yang valid. Pengguna berhasil masuk dan diarahkan ke halaman profil pelanggan. Nama dan email akun ditampilkan pada halaman tersebut. |
+| Status | **PASS** |
 
-## 2. Tujuan Pengujian
+### Bukti Pengujian
 
-Dokumen ini digunakan untuk mencatat proses
-dan hasil pelaksanaan pengujian terhadap
-website Jetprint.id.
+| No. | Nama Screenshot | Keterangan |
+|---|---|---|
+| 1 | [TC01-01-before-login](screenshots/TC01-01-before-login.png) | Tampilan awal website sebelum login. |
+| 2 | [TC01-02-login-form](screenshots/TC01-02-login-form.png) | Form login sebelum diisi. |
+| 3 | [TC01-03-password-validation](screenshots/TC01-03-password-validation.png) | Validasi password kurang dari 8 karakter. |
+| 4 | [TC01-04-credentials-filled](screenshots/TC01-04-credentials-filled.png) | Form login setelah data dimasukkan. |
+| 5 | [TC01-05-login-success](screenshots/TC01-05-login-success.png) | Tampilan profil setelah berhasil login. |
 
-Pengujian dilakukan berdasarkan test case
-yang telah disusun oleh tim Test Design.
+### Kesimpulan Pengujian
 
-Tujuan pengujian:
-
-- Memastikan fungsi website berjalan sesuai harapan.
-- Membandingkan Expected Result dan Actual Result.
-- Mengidentifikasi kemungkinan defect.
-- Mengumpulkan evidence pengujian.
-- Mendokumentasikan hasil Pass, Fail, dan Blocked.
-
-## 3. Lingkungan Pengujian
-
-| Komponen | Keterangan |
-|---|---|
-| Application | Jetprint.id |
-| Website | https://jetprint.id |
-| Testing Method | Black Box Testing |
-| Browser | TBD |
-| Operating System | TBD |
-| Device | TBD |
-
-## 4. Test Execution Summary
-
-| Keterangan | Jumlah |
-|---|---|
-| Total Test Cases | TBD |
-| Pass | TBD |
-| Fail | TBD |
-| Blocked | TBD |
-| Not Executed | TBD |
-
-Note: Pengujian formal belum dimulai.
-
-## 5. Test Execution Progress
-
-- [x] Initial documentation preparation
-- [ ] Receive test cases from Test Design
-- [ ] Execute test cases
-- [ ] Record actual results
-- [ ] Collect testing evidence
-- [ ] Document identified defects
-- [ ] Perform retesting
-- [ ] Finalize test execution report
-
-## 6. Evidence Documentation
-
-Evidence pengujian akan disimpan pada:
-
-`05-test-execution/screenshots/`
-
-Jenis evidence yang akan dikumpulkan:
-
-1. Screenshot kondisi sebelum pengujian.
-2. Screenshot proses pengujian.
-3. Screenshot hasil pengujian.
-4. Screenshot tambahan jika ditemukan defect.
-
-## 7. Defect Documentation
-
-Setiap hasil pengujian yang tidak sesuai
-dengan Expected Result akan dianalisis
-terlebih dahulu.
-
-Defect yang telah diverifikasi akan
-didokumentasikan pada:
-
-`06-bug-reports/bug-report.md`
-
-Informasi defect meliputi:
-
-- Bug ID
-- Bug Title
-- Related Test Case
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Severity
-- Evidence
-- Status
-
-## 8. Testing Notes
-
-Pengujian formal akan dimulai setelah
-dokumen test scenarios dan test cases
-tersedia dari tim Test Design.
-
-Seluruh hasil pengujian akan dicatat
-berdasarkan kondisi aktual website.
-
-Test case yang belum dijalankan tidak
-akan diberikan status Pass atau Fail.
-
+Berdasarkan hasil pengujian, fitur login Jetprint.id berhasil menerima kredensial akun pelanggan yang valid. Sistem mengarahkan pengguna ke halaman profil setelah proses login berhasil. Dengan demikian, hasil pengujian TC01 dinyatakan **PASS**.
