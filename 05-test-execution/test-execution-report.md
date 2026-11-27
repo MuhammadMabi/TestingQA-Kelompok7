@@ -79,11 +79,11 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC01-01-before-login.png](screenshots/TC01%20-%20Login%20Valid/TC01-01-before-login.png) – Tampilan awal website sebelum login.
-2. [TC01-02-login-form.png](screenshots/TC01%20-%20Login%20Valid/TC01-02-login-form.png) – Form login sebelum diisi.
-3. [TC01-03-password-validation.png](screenshots/TC01%20-%20Login%20Valid/TC01-03-password-validation.png) – Validasi password kurang dari 8 karakter.
-4. [TC01-04-credentials-filled.png](screenshots/TC01%20-%20Login%20Valid/TC01-04-credentials-filled.png) – Form login setelah data dimasukkan.
-5. [TC01-05-login-success.png](screenshots/TC01%20-%20Login%20Valid/TC01-05-login-success.png) – Tampilan profil setelah berhasil login.
+1. [TC01-01-before-login.jpg](screenshots/TC01%20-%20Login%20Valid/TC01-01-before-login.jpg) – Tampilan awal website sebelum login.
+2. [TC01-02-login-form.jpg](screenshots/TC01%20-%20Login%20Valid/TC01-02-login-form.jpg) – Form login sebelum diisi.
+3. [TC01-03-password-validation.jpg](screenshots/TC01%20-%20Login%20Valid/TC01-03-password-validation.jpg) – Validasi password kurang dari 8 karakter.
+4. [TC01-04-credentials-filled.jpg](screenshots/TC01%20-%20Login%20Valid/TC01-04-credentials-filled.jpg) – Form login setelah data dimasukkan.
+5. [TC01-05-login-success.jpg](screenshots/TC01%20-%20Login%20Valid/TC01-05-login-success.jpg) – Tampilan profil setelah berhasil login.
 
 ### TC02 – Login dengan Password Salah
 
@@ -99,8 +99,8 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC02-01-login-form.png](screenshots/TC02%20-%20Login%20dengan%20Password%20Salah/TC02-01-login-form.png) – Form login dengan data pengujian.
-2. [TC02-02-login-rejected.png](screenshots/TC02%20-%20Login%20dengan%20Password%20Salah/TC02-02-login-rejected.png) – Sistem menolak login dengan password salah.
+1. [TC02-01-login-form.jpg](screenshots/TC02%20-%20Login%20dengan%20Password%20Salah/TC02-01-login-form.jpg) – Form login dengan data pengujian.
+2. [TC02-02-login-rejected.jpg](screenshots/TC02%20-%20Login%20dengan%20Password%20Salah/TC02-02-login-rejected.jpg) – Sistem menolak login dengan password salah.
 
 ### TC03 – Login dengan Kolom Kosong
 
@@ -116,8 +116,8 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC03-01-empty-login-form.png](screenshots/TC03%20-%20Login%20dengan%20Kolom%20Kosong/TC03-01-empty-login-form.png) – Form login sebelum diisi.
-2. [TC03-02-empty-fields-validation.png](screenshots/TC03%20-%20Login%20dengan%20Kolom%20Kosong/TC03-02-empty-fields-validation.png) – Validasi ketika kolom login kosong.
+1. [TC03-01-empty-login-form.jpg](screenshots/TC03%20-%20Login%20dengan%20Kolom%20Kosong/TC03-01-empty-login-form.jpg) – Form login sebelum diisi.
+2. [TC03-02-empty-fields-validation.jpg](screenshots/TC03%20-%20Login%20dengan%20Kolom%20Kosong/TC03-02-empty-fields-validation.jpg) – Validasi ketika kolom login kosong.
 
 ### TC04 – Registrasi dengan Data Lengkap
 
@@ -133,9 +133,9 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC04-01-registration-form.png](screenshots/TC04%20-%20Registrasi%20dengan%20Data%20Lengkap/TC04-01-registration-form.png) – Form registrasi sebelum diisi.
-2. [TC04-02-registration-filled.png](screenshots/TC04%20-%20Registrasi%20dengan%20Data%20Lengkap/TC04-02-registration-filled.png) – Form registrasi setelah diisi.
-3. [TC04-03-registration-result.png](screenshots/TC04%20-%20Registrasi%20dengan%20Data%20Lengkap/TC04-03-registration-result.png) – Hasil proses registrasi.
+1. [TC04-01-registration-form.jpg](screenshots/TC04%20-%20Registrasi%20dengan%20Data%20Lengkap/TC04-01-registration-form.jpg) – Form registrasi sebelum diisi.
+2. [TC04-02-registration-filled.jpg](screenshots/TC04%20-%20Registrasi%20dengan%20Data%20Lengkap/TC04-02-registration-filled.jpg) – Form registrasi setelah diisi.
+3. [TC04-03-registration-result.jpg](screenshots/TC04%20-%20Registrasi%20dengan%20Data%20Lengkap/TC04-03-registration-result.jpg) – Hasil proses registrasi.
 
 ### TC05 – Registrasi dengan Email Tidak Valid
 
@@ -151,8 +151,8 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC05-01-registration-invalid-email.png](screenshots/TC05%20-%20Registrasi%20dengan%20Email%20Tidak%20Valid/TC05-01-registration-invalid-email.png) – Form registrasi dengan email tidak valid.
-2. [TC05-02-registration-invalid-email-rejected.png](screenshots/TC05%20-%20Registrasi%20dengan%20Email%20Tidak%20Valid/TC05-02-registration-invalid-email-rejected.png) – Validasi penolakan format email.
+1. [TC05-01-registration-invalid-email.jpg](screenshots/TC05%20-%20Registrasi%20dengan%20Email%20Tidak%20Valid/TC05-01-registration-invalid-email.jpg) – Form registrasi dengan email tidak valid.
+2. [TC05-02-registration-invalid-email-rejected.jpg](screenshots/TC05%20-%20Registrasi%20dengan%20Email%20Tidak%20Valid/TC05-02-registration-invalid-email-rejected.jpg) – Validasi penolakan format email.
 
 ### TC06 – Registrasi dengan Password Kurang dari 8 Karakter
 
@@ -168,8 +168,8 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC06-01-registration-short-password.png](screenshots/TC06%20-%20Registrasi%20dengan%20Password%20Kurang%20dari%208%20Karakter/TC06-01-registration-short-password.png) – Form registrasi dengan password kurang dari 8 karakter.
-2. [TC06-02-registration-short-password-rejected.png](screenshots/TC06%20-%20Registrasi%20dengan%20Password%20Kurang%20dari%208%20Karakter/TC06-02-registration-short-password-rejected.png) – Validasi penolakan password.
+1. [TC06-01-registration-short-password.jpg](screenshots/TC06%20-%20Registrasi%20dengan%20Password%20Kurang%20dari%208%20Karakter/TC06-01-registration-short-password.jpg) – Form registrasi dengan password kurang dari 8 karakter.
+2. [TC06-02-registration-short-password-rejected.jpg](screenshots/TC06%20-%20Registrasi%20dengan%20Password%20Kurang%20dari%208%20Karakter/TC06-02-registration-short-password-rejected.jpg) – Validasi penolakan password.
 
 ### TC07 – Mencari Produk Spanduk Flexy
 
@@ -185,8 +185,8 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC07-01-search-keyword.png](screenshots/TC07%20-%20Pencarian%20Produk/TC07-01-search-keyword.png) – Kata kunci pencarian produk.
-2. [TC07-02-search-result.png](screenshots/TC07%20-%20Pencarian%20Produk/TC07-02-search-result.png) – Hasil pencarian produk Spanduk Flexy.
+1. [TC07-01-search-keyword.jpg](screenshots/TC07%20-%20Pencarian%20Produk/TC07-01-search-keyword.jpg) – Kata kunci pencarian produk.
+2. [TC07-02-search-result.jpg](screenshots/TC07%20-%20Pencarian%20Produk/TC07-02-search-result.jpg) – Hasil pencarian produk Spanduk Flexy.
 
 ### TC08 – Menambahkan Produk ke Keranjang
 
@@ -202,9 +202,9 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC08-01-product-detail.png](screenshots/TC08%20-%20Menambahkan%20Produk%20ke%20Keranjang/TC08-01-product-detail.png) – Halaman detail dan konfigurasi produk.
-2. [TC08-02-product-added-to-cart.png](screenshots/TC08%20-%20Menambahkan%20Produk%20ke%20Keranjang/TC08-02-product-added-to-cart.png) – Produk berhasil ditambahkan ke keranjang.
-3. [TC08-03-cart-verification.png](screenshots/TC08%20-%20Menambahkan%20Produk%20ke%20Keranjang/TC08-03-cart-verification.png) – Verifikasi produk pada keranjang belanja.
+1. [TC08-01-product-detail.jpg](screenshots/TC08%20-%20Menambahkan%20Produk%20ke%20Keranjang/TC08-01-product-detail.jpg) – Halaman detail dan konfigurasi produk.
+2. [TC08-02-product-added-to-cart.jpg](screenshots/TC08%20-%20Menambahkan%20Produk%20ke%20Keranjang/TC08-02-product-added-to-cart.jpg) – Produk berhasil ditambahkan ke keranjang.
+3. [TC08-03-cart-verification.jpg](screenshots/TC08%20-%20Menambahkan%20Produk%20ke%20Keranjang/TC08-03-cart-verification.jpg) – Verifikasi produk pada keranjang belanja.
 
 ### TC09 – Melanjutkan Pemesanan Tanpa Mengisi Jumlah
 
@@ -220,7 +220,7 @@ Pengujian dilakukan melalui tampilan website sebagai pengguna tanpa mengakses so
 
 **Bukti Pengujian:**
 
-1. [TC09-01-quantity-field-default.png](screenshots/TC09%20-%20Validasi%20Jumlah%20Pesanan%20Kosong/TC09-01-quantity-field-default.png) – Kolom jumlah memiliki nilai awal 1 dan tidak dapat dikosongkan.
+1. [TC09-01-quantity-field-default.jpg](screenshots/TC09%20-%20Validasi%20Jumlah%20Pesanan%20Kosong/TC09-01-quantity-field-default.jpg) – Kolom jumlah memiliki nilai awal 1 dan tidak dapat dikosongkan.
 
 **Catatan Pengujian:**
 
@@ -240,8 +240,8 @@ Skenario tidak dapat dilaksanakan sesuai test case karena antarmuka website memb
 
 **Bukti Pengujian:**
 
-1. [TC10-01-upload-design-section.png](screenshots/TC10%20-%20Validasi%20Ukuran%20File%20Upload/TC10-01-upload-design-section.png) – Tampilan area upload desain dan batas maksimal 50 MB.
-2. [TC10-02-upload-file-size-validation.png](screenshots/TC10%20-%20Validasi%20Ukuran%20File%20Upload/TC10-02-upload-file-size-validation.png) – Pesan validasi ketika memilih file lebih dari 50 MB.
+1. [TC10-01-upload-design-section.jpg](screenshots/TC10%20-%20Validasi%20Ukuran%20File%20Upload/TC10-01-upload-design-section.jpg) – Tampilan area upload desain dan batas maksimal 50 MB.
+2. [TC10-02-upload-file-size-validation.jpg](screenshots/TC10%20-%20Validasi%20Ukuran%20File%20Upload/TC10-02-upload-file-size-validation.jpg) – Pesan validasi ketika memilih file lebih dari 50 MB.
 
 ## 6. Evidence Documentation Summary
 
