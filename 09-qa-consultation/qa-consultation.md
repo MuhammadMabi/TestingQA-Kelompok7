@@ -4,8 +4,8 @@
 
 | Informasi | Keterangan |
 |---|---|
-| Tanggal Wawancara | Belum ditentukan |
-| Metode Wawancara | Belum ditentukan |
+| Tanggal Wawancara | 28/29 November 2026 |
+| Metode Wawancara | Online - Microsoft Teams |
 | Pewawancara | Kelompok 7 |
 | Topik | Penerapan Software Testing & Quality Assurance pada Website dan Aplikasi |
 
