@@ -1,8 +1,10 @@
+# Standards and References
+
 ## Referensi
 
-Pengujian mengacu pada standar dan publikasi IEEE terkait software testing yang diterbitkan dalam rentang tahun 2023–2026.
+Pengujian mengacu pada standar *ISO/IEC/IEEE* dan *IEEE* yang relevan dengan Software Testing dan Software Quality Assurance.
 
 Referensi utama:
-- ISO/IEC/IEEE 29119-5 (2025) - Software and systems engineering — Software testing — Part 5: Keyword-driven testing
-- IEEE Std 730™ (2026) - IEEE Standard for Software Quality Assurance Processes
-- IEEE Std 3407™ (2025) - IEEE Standard for End-to-End Software Testing Automation Tools
+
+- *ISO/IEC/IEEE 29119-5* - Keyword-Driven Testing (2024).
+- *IEEE 730* - Software Quality Assurance Processes (2026).
