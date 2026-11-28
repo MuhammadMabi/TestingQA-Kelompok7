@@ -1,9 +1,9 @@
 
-# Test Cases – Jetprint.id
+Test Cases – Jetprint.id
 
-## 1. Test Case Login
+ 1. Test Case Login
 
-### TC01 – Login dengan Data Benar
+ TC01 – Login dengan Data Benar
 - Fitur: Login
 - Precondition: Pengguna sudah memiliki akun.
 - Test Data:
@@ -16,7 +16,7 @@
   4. Menekan tombol login.
 - Expected Result: Pengguna berhasil masuk ke akun.
 
-### TC02 – Login dengan Password Salah
+TC02 – Login dengan Password Salah
 - Fitur: Login
 - Precondition: Pengguna sudah memiliki akun.
 - Test Data:
@@ -29,7 +29,7 @@
   4. Menekan tombol login.
 - Expected Result: Sistem menolak login dan menampilkan pesan kesalahan.
 
-### TC03 – Login dengan Kolom Kosong
+ TC03 – Login dengan Kolom Kosong
 - Fitur: Login
 - Test Data: Email dan password kosong.
 - Steps:
@@ -38,9 +38,9 @@
   3. Menekan tombol login.
 - Expected Result: Sistem memberikan validasi bahwa kolom harus diisi.
 
-## 2. Test Case Registrasi
+ 2. Test Case Registrasi
 
-### TC04 – Registrasi dengan Data Valid
+ TC04 – Registrasi dengan Data Valid
 - Fitur: Registrasi
 - Test Data:
   - Nama: Tester Jetprint
@@ -53,7 +53,7 @@
   3. Menekan tombol daftar.
 - Expected Result: Sistem memproses pendaftaran dan menampilkan konfirmasi sesuai proses registrasi.
 
-### TC05 – Registrasi dengan Email Tidak Valid
+TC05 – Registrasi dengan Email Tidak Valid
 - Fitur: Registrasi
 - Test Data:
   - Email: farizi123
@@ -64,9 +64,9 @@
   4. Menekan tombol daftar.
 - Expected Result: Sistem menolak format email yang tidak valid.
 
-## 3. Test Case Pencarian dan Detail Produk
+ 3. Test Case Pencarian dan Detail Produk
 
-### TC06 – Mencari Produk
+TC06 – Mencari Produk
 - Fitur: Pencarian Produk
 - Test Data: Nama produk yang tersedia di website.
 - Steps:
@@ -75,7 +75,7 @@
   3. Menjalankan pencarian.
 - Expected Result: Sistem menampilkan produk yang sesuai dengan kata kunci.
 
-### TC07 – Melihat Detail Produk
+ TC07 – Melihat Detail Produk
 - Fitur: Detail Produk
 - Test Data: Salah satu produk yang tersedia.
 - Steps:
@@ -84,9 +84,9 @@
   3. Membuka halaman detail produk.
 - Expected Result: Sistem menampilkan informasi produk seperti nama, harga, dan spesifikasi yang tersedia.
 
-## 4. Test Case Pemesanan
+4. Test Case Pemesanan
 
-### TC08 – Mengisi Detail Pemesanan
+ TC08 – Mengisi Detail Pemesanan
 - Fitur: Pemesanan
 - Test Data:
   - Produk: Produk percetakan yang tersedia.
@@ -100,7 +100,7 @@
   5. Melanjutkan proses pemesanan.
 - Expected Result: Sistem menerima data pesanan yang valid dan menampilkan tahapan pemesanan berikutnya.
 
-### TC09 – Pemesanan dengan Kolom Wajib Kosong
+ TC09 – Pemesanan dengan Kolom Wajib Kosong
 - Fitur: Pemesanan
 - Test Data: Salah satu kolom wajib tidak diisi.
 - Steps:
@@ -109,9 +109,9 @@
   3. Menekan tombol lanjut atau pesan.
 - Expected Result: Sistem memberikan validasi dan meminta pengguna melengkapi data.
 
-## 5. Test Case Upload Desain
+5. Test Case Upload Desain
 
-### TC10 – Upload File dengan Format yang Didukung
+TC10 – Upload File dengan Format yang Didukung
 - Fitur: Upload Desain
 - Test Data: File desain dengan format yang tercantum sebagai format yang didukung website.
 - Steps:
@@ -120,7 +120,7 @@
   3. Mengunggah file.
 - Expected Result: File berhasil diunggah apabila memenuhi ketentuan website.
 
-### TC11 – Upload File dengan Format Tidak Didukung
+TC11 – Upload File dengan Format Tidak Didukung
 - Fitur: Upload Desain
 - Test Data: File dengan format yang tidak didukung website.
 - Steps:
@@ -129,9 +129,9 @@
   3. Mencoba mengunggah file.
 - Expected Result: Sistem menolak file dan menampilkan pesan kesalahan.
 
-## 6. Test Case Keranjang
+6. Test Case Keranjang
 
-### TC12 – Menambahkan Produk ke Keranjang
+ TC12 – Menambahkan Produk ke Keranjang
 - Fitur: Keranjang
 - Precondition: Produk tersedia dan dapat dipesan.
 - Test Data: Salah satu produk yang tersedia.
@@ -142,9 +142,9 @@
   4. Membuka halaman keranjang.
 - Expected Result: Produk tampil di keranjang dengan informasi pesanan yang sesuai.
 
-## 7. Metode Pengujian
+7. Metode Pengujian
 
-### A. Equivalence Partitioning (EP)
+ A. Equivalence Partitioning (EP)
 Pengujian dilakukan dengan membagi data menjadi kelompok valid dan tidak valid.
 
 Contoh:
@@ -152,7 +152,7 @@ Contoh:
 - Email dengan format salah.
 - Email kosong.
 
-### B. Boundary Value Analysis (BVA)
+ B. Boundary Value Analysis (BVA)
 Pengujian dilakukan pada batas nilai input yang ditentukan sistem.
 
 Contoh:
